@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Forever Trio ❤️ | Our Story</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="loader"><div class="loader-heart">❤️</div><p>Loading our story...</p></div>
+
+<div class="ambient ambient-one"></div>
+<div class="ambient ambient-two"></div>
+<div id="stars"></div>
+<div id="hearts"></div>
+
+<header class="topbar">
+  <div class="brand">❤️ <span>Forever Trio</span></div>
+  <div class="top-actions">
+    <button id="musicBtn" class="icon-btn" aria-label="Toggle music">♫</button>
+    <button id="menuBtn" class="icon-btn mobile-only" aria-label="Open navigation">☰</button>
+  </div>
+</header>
+
+<div class="progress"><span id="progressBar"></span></div>
+
+<nav id="slideNav" class="slide-nav" aria-label="Slide navigation">
+  <button data-slide="0">Welcome</button>
+  <button data-slide="1">Our Story</button>
+  <button data-slide="2">The Trio</button>
+  <button data-slide="3">Memories</button>
+  <button data-slide="4">Moments</button>
+  <button data-slide="5">Quotes</button>
+  <button data-slide="6">Forever</button>
+</nav>
+
+<main id="presentation">
+
+<section class="slide active" data-title="Welcome">
+  <div class="hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">A STORY OF THREE FRIENDS</p>
+      <h1>Friendship<br><em>Trio</em></h1>
+      <p class="lead">Three hearts. Different personalities. One unforgettable bond.</p>
+      <div class="hero-actions">
+        <button class="primary" data-next>Enter Our Story <span>→</span></button>
+        <button class="ghost" id="heroMusic">Play Music</button>
+      </div>
+    </div>
+    <div class="hero-orbit">
+      <div class="orbit orbit-a"></div>
+      <div class="orbit orbit-b"></div>
+      <div class="hero-photo">
+        <img src="images/trio1.jpg" alt="Friendship Trio" onerror="this.style.display='none'; this.parentElement.classList.add('photo-fallback')">
+        <span>❤️</span>
+      </div>
+      <div class="floating-tag tag-one">TRUST</div>
+      <div class="floating-tag tag-two">MEMORIES</div>
+      <div class="floating-tag tag-three">FOREVER</div>
+    </div>
+  </div>
+  <div class="slide-meta"><span>01</span><span>SCROLL / SWIPE / ARROW</span></div>
+</section>
+
+<section class="slide" data-title="Our Story">
+  <div class="section-head">
+    <p class="eyebrow">02 / THE BEGINNING</p>
+    <h2>Every friendship has a beginning.<br><em>Ours became unforgettable.</em></h2>
+  </div>
+  <div class="timeline">
+    <article class="timeline-item">
+      <span class="year">01</span>
+      <div><h3>First Meeting</h3><p>Write how all three of you met.</p></div>
+    </article>
+    <article class="timeline-item">
+      <span class="year">02</span>
+      <div><h3>Craziest Day</h3><p>Add your funniest memory.</p></div>
+    </article>
+    <article class="timeline-item">
+      <span class="year">03</span>
+      <div><h3>Best Moment</h3><p>Describe your favorite memory together.</p></div>
+    </article>
+    <article class="timeline-item">
+      <span class="year">04</span>
+      <div><h3>Future Promise</h3><p>No matter where life takes us, we'll always stay together.</p></div>
+    </article>
+  </div>
+</section>
+
+<section class="slide" data-title="The Trio">
+  <div class="section-head center">
+    <p class="eyebrow">03 / THREE SOULS</p>
+    <h2>Meet the <em>Forever Trio</em></h2>
+    <p>Three different personalities. One unbreakable bond.</p>
+  </div>
+  <div class="trio-grid">
+    <article class="person-card">
+      <div class="person-image"><img src="images/trio1.jpg" alt="Baapy" onerror="this.style.display='none'"><span>BB</span></div>
+      <div><span class="role">THE GF DREAMER</span><h3>Bappy</h3><p>My flirting style is a mystery, mostly because it looks like you are choking on a snack🤫.</p></div>
+    </article>
+    <article class="person-card">
+      <div class="person-image"><span>02</span></div>
+      <div><span class="role">THE FUN MAKER</span><h3>Fafa</h3><p>The one who turns ordinary days into stories we keep talking about.One look at you makes others want to smile too😂.</p></div>
+    </article>
+    <article class="person-card">
+      <div class="person-image"><span>03</span></div>
+      <div><span class="role">THE SUPPORTER</span><h3>Khai</h3><p>The calm presence who is there when it matters most👊🏻.</p></div>
+    </article>
+  </div>
+</section>
+
+<section class="slide" data-title="Memories">
+  <div class="section-head">
+    <p class="eyebrow">04 / LITTLE MOMENTS</p>
+    <h2>Memories that <em>stay forever.</em></h2>
+  </div>
+  <div class="memory-grid">
+    <figure><img src="images/memory1.jpg" alt="First Selfie" onerror="this.closest('figure').classList.add('missing')"><figcaption>First Selfie</figcaption></figure>
+    <figure><img src="images/memory2.jpg" alt="Best Trip" onerror="this.closest('figure').classList.add('missing')"><figcaption>Best Trip</figcaption></figure>
+    <figure><img src="images/memory3.jpg" alt="Crazy Day" onerror="this.closest('figure').classList.add('missing')"><figcaption>Crazy Day</figcaption></figure>
+    <figure><img src="images/memory4.jpg" alt="Festival Time" onerror="this.closest('figure').classList.add('missing')"><figcaption>Festival Time</figcaption></figure>
+    <figure><img src="images/memory5.jpg" alt="Unforgettable Moment" onerror="this.closest('figure').classList.add('missing')"><figcaption>Unforgettable Moment</figcaption></figure>
+    <figure><img src="images/memory6.jpg" alt="Forever Together" onerror="this.closest('figure').classList.add('missing')"><figcaption>Forever Together</figcaption></figure>
+  </div>
+</section>
+
+<section class="slide" data-title="Moments">
+  <div class="section-head center">
+    <p class="eyebrow">05 / SPECIAL MOMENTS</p>
+    <h2>The moments we <em>never forget.</em></h2>
+  </div>
+  <div class="moment-layout">
+    <div class="moment-cards">
+      <article class="glass-card"><span>01</span><h3>😂 The Crazy Days</h3><p>Add the date and story of your funniest day together.</p></article>
+      <article class="glass-card"><span>02</span><h3>❤️ The Best Memory</h3><p>Add a special event or moment that means the most.</p></article>
+      <article class="glass-card"><span>03</span><h3>🚀 The Next Chapter</h3><p>More places, more laughter, more memories together.</p></article>
+    </div>
+    <div class="video-card">
+      <video controls poster="images/poster.jpg">
+        <source src="videos/memory.mp4" type="video/mp4">
+      </video>
+      <p>Relive every beautiful moment.</p>
+    </div>
+  </div>
+</section>
+
+<section class="slide quote-slide" data-title="Quotes">
+  <div class="quote-mark">“</div>
+  <div class="quote-wrap">
+    <p class="eyebrow">06 / OUR WORDS</p>
+    <blockquote id="quoteText">Some people come into our lives for a reason. Some stay for a season. True friends become family.</blockquote>
+    <div class="quote-dots"><span class="active"></span><span></span><span></span></div>
+  </div>
+</section>
+
+<section class="slide final-slide" data-title="Forever">
+  <div class="final-glow"></div>
+  <div class="final-content">
+    <p class="eyebrow">07 / UNTIL FOREVER</p>
+    <h2>Some friendships are temporary.<br><em>Ours is forever.</em></h2>
+    <p class="final-text">Thank you for every smile, every crazy memory, every ordinary day made extraordinary.</p>
+    <div class="final-heart">❤️</div>
+    <h3>Forever Trio</h3>
+    <button class="primary" id="replay">↻ Replay Our Story</button>
+  </div>
+</section>
+
+</main>
+
+<div class="slide-controls">
+  <button id="prev" aria-label="Previous slide">←</button>
+  <div><span id="currentSlide">01</span><i></i><span>07</span></div>
+  <button id="next" aria-label="Next slide">→</button>
+</div>
+
+<div class="swipe-hint">Swipe or use ← →</div>
+
+<audio id="bgMusic" loop>
+  <source src="music/friendship.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
